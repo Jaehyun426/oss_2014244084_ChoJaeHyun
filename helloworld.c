@@ -16,8 +16,9 @@ void swap(int *a, int *b)
 int main()
 {
    printf("hello world!!!!\n");
+  
+   int a=30 , b=20;
 
-   int a=3 , b=2;
    printf("a+b = %d\n",add(a,b));
 
    return 0;
