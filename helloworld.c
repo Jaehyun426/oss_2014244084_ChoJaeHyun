@@ -1,8 +1,10 @@
 #include<stdio.h>
+
 int sub(int a, int b)
 {
 	return a-b;
 }
+
 
 int add(int a, int b)
 {
@@ -14,13 +16,12 @@ void swap(int *a, int *b)
 	*a = *b;
 	*b = temp;
 }
-
 int main()
 {
-
    printf("hello world!!!!\n");
-   
+  
    int a=30 , b=20;
+
    printf("a+b = %d\n",add(a,b));
 
    return 0;
